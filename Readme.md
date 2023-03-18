@@ -9,3 +9,5 @@ For installing with vim plug :
 ```vim
 Plug 'minmax1996/flipacoin-plugin'
 ```
+## Demo
+https://user-images.githubusercontent.com/18166389/226097884-cccb5702-da50-4de7-877e-35cda6380568.mov
