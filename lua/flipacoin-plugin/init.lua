@@ -34,8 +34,7 @@ function M.flip()
 	end
 
 	local res = {}
-	local coin = math.random(1, 2)
-	if coin < 50 then
+	if math.random(1, 2) == 1 then
 		res = vim.api.nvim_buf_get_lines(b, marks[1][1], marks[1][2] - 1, false)
 		print("HEADS")
 	else
