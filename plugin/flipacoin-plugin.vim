@@ -1,5 +1,6 @@
 " Title:        FlipACoin Plugin
-" Description:  A plugin to provide a flip coin functionality 
+" Description:  A plugin to provide a flip coin functionality for merge
+" conflicts resolution 
 " Last Change:  31 February 2023
 " Maintainer:   Maxim Minaev <https://github.com/minmax1996>
 
@@ -17,3 +18,4 @@ let g:loaded_exampleplugin = 1
 " exe "lua package.path = package.path .. ';" . s:lua_rocks_deps_loc . "/lua-?/init.lua'"
 
 command! -nargs=0 FlipACoin lua require("flipacoin-plugin").flip()
+command! -nargs=0 NextConflict lua require("flipacoin-plugin").next()
